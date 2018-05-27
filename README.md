@@ -12,4 +12,4 @@ Esta página tiene diferentes problemas visuales y de información que hacen que
 
 Para conocer la nueva versión de la página web de la fundación niño y cáncer ingresa a:
 
-[Link]()
+[Link](https://gsalinase.github.io/actp_8_prueba_html/)
