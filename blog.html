@@ -9,12 +9,17 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900" rel="stylesheet">
   <!-- Font Awesome 5.0 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <!-- Owl carousel CSS-->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <!-- OWL carousel Theme -->
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
   <!-- Main Style -->
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Fundación Niño y Cáncer</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-xl">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-xl fixed-top">
     <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo niño cáncer"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,51 +27,92 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Quiénes somos</a>
+          <a class="nav-link" href="about.html">Quiénes somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Noticias</a>
+          <a class="nav-link" href="blog.html">Noticias</a>
         </li>
       </ul>
     </div>
   </nav>
   <!-- Works -->
-  <section class="container-fluid works">
-    <h2>Mis trabajos</h2>
+  <article class="container-fluid works">
+    <h2>Últimas entradas</h2>
     <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src="assets/img/card-1.jpg" alt="Card image cap">
+        <img class="card-img-top" src="assets/img/post/post-1.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Asado en la Patagonia</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint, perspiciatis distinctio molestias nihil repudiandae neque rem adipisci repellendus libero illo quo blanditiis, velit quasi ad, recusandae voluptates officia.</p>
-          <button type="button" class="btn btn-outline-info">Ver más</button>
+          <h5 class="card-title">Tallarinata de amor y sonrisas - Una noche de sonrisas, amor y generosidad</h5>
+          <p class="card-text">Una noche de música, sorpresas y generosidad
+          Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central. </p>
+          <button type="button" class="btn btn-info">Ver más</button>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="assets/img/card-2.jpg" alt="Card image cap">
+        <img class="card-img-top" src="assets/img/post/post-2.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Papas del fin del mundo</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
-          <button type="button" class="btn btn-outline-info">Ver más</button>
+          <h5 class="card-title">Montaña de la Alegría 2017 - Realización del Taller de Ski</h5>
+          <p class="card-text">Una noche de música, sorpresas y generosidad
+          Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central. </p>
+          <button type="button" class="btn btn-info">Ver más</button>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="assets/img/card-3.jpg" alt="Card image cap">
+        <img class="card-img-top" src="assets/img/post/post-4.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Salmones de Alaska</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati facere quibusdam sint id laborum magni velit ducimus corporis facilis qui architecto dolor, accusamus eveniet exercitationem fugit. Quod autem neque ducimus.</p>
-          <button type="button" class="btn btn-outline-info">Ver más</button>
+          <h5 class="card-title">Inauguración y restructuración de la Unidad de Oncología Pediátrica de Concepción.</h5>
+          <p class="card-text">El Hospital Guillermo Gran Benavente se inauguró en 1944, después del gran terremoto de 1939. Atiende a los pacientes de la 8ª Región recibiendo   unos 60 a 70 pacientes con cáncer o leucemia nuevos por año, lo que es comparable con los grandes hospitales pediátricos de Santiago.</p>
+          <button type="button" class="btn btn-info">Ver más</button>
         </div>
       </div>
     </div>
-  </section>
+  </article>
   <!-- Footer -->
-  <footer class="container-fluid bg-dark">
+  <footer class="container-fluid footer">
     <div class="row">
       <div class="col-sm-6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3934779801098!2d-70.62056808500262!3d-33.439053780777165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6327f8b79b%3A0x1b8a92ab14abf654!2sDesaf%C3%ADo+Latam!5e0!3m2!1ses-419!2scl!4v1527211867971" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <h3>Visita nuestra fundación</h3>
+        <div class="embed-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5120188939204!2d-70.53908698487318!3d-33.38380370148075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6283871%3A0x75682cb0ad81a60e!2sFundaci%C3%B3n+Ni%C3%B1o+y+Cancer!5e0!3m2!1ses-419!2scl!4v1527439190995" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="col-sm-6"></div>
+      <div class="col-sm-6">
+        <h3>Contáctanos</h3>
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo elecrtrónico">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">¿Qué quieres hacer?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Ser socio</option>
+              <option>Ser voluntario</option>
+              <option>Donar</option>
+              <option>Tomar contacto</option>
+              <option>Duda o consulta</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <div class="contact-button-inner">
+            <button type="button" class="btn btn-info">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="social-nav">
+      <ul class="d-flex">
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+      </ul>
     </div>
     <small>Fundación Niño y Cancer 2018. Todos los derechos reservados.</small>
   </footer>

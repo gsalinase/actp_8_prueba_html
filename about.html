@@ -9,12 +9,17 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900" rel="stylesheet">
   <!-- Font Awesome 5.0 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <!-- Owl carousel CSS-->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <!-- OWL carousel Theme -->
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
   <!-- Main Style -->
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Fundación Niño y Cáncer</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-xl">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-xl fixed-top">
     <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo niño cáncer"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -40,53 +45,105 @@
       <div class="col-sm-6">
         <p>Ayudamos a contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar</p>
         <p>Necesitamos la colaboración solidaria  de la comunidad, para lograr transformar la cara triste de la enfermedad en una cara feliz con esperanzas para estos pequeños que luchan día a día por su vida.</p>
+        <p>En el año 1992 se creó la Fundación Oncológica Las Condes, atendiendo a niños y adultos con cáncer. En el año 2000 se modifican sus estatutos según el decreto N° 994 publicado en el Diario Oficial N° 36817, para atender solamente a niños con cáncer.</p>
       </div>
     </div>
   </section>
   <!-- Objetive -->
-  <section class="container-fluid about">
+  <section class="container-fluid objetive">
     <h2>Nuestros objetivos</h2>
     <div class="row">
-      <div class="col-sm-4 about-inner">
+      <div class="col-sm-4 objetive_inner">
         <i class="far fa-thumbs-up"></i>
         <h3>Apoyar el tratamiento</h3>
       </div>
-      <div class="col-sm-4 about-inner">
+      <div class="col-sm-4 objetive_inner">
         <i class="fab fa-accessible-icon"></i>
         <h3>Rehabilitar al niño tratado</h3>
       </div>
-      <div class="col-sm-4 about-inner">
+      <div class="col-sm-4 objetive_inner">
         <i class="fas fa-smile"></i>
         <h3>Mejorar la calidad de vida</h3>
       </div>
     </div>
   </section>
-
-  <!-- Contact -->
-  <section class="container-fluid contact">
-    <h2>Házte socio</h2>
-    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores harum eaque, hic quod rerum officiis. Nemo veritatis minima illum at quaerat expedita! Accusantium, iste. Harum corporis accusantium repudiandae consequuntur, magni?</p>
-    <form>
-      <div class="form-group">
-        <label for="formGroupExampleInput">Nombre</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu nombre">
+  <section class="container-fluid donation">
+    <h2>¿Cómo puedes ayudar?</h2>
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>Siendo Socio</h3>
+        <p>Aportando dinero en forma automática. Tenemos convenio de débito interbancario, donde el socio firma un mandato en el que se compromete a realizar donación mensual que se descuenta a través de su cuenta corriente.</p>
       </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Correo electrónico</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo elecrtrónico">
+      <div class="col-sm-2">
+        <h3>Depositando</h3>
+        <p>Depositando en la cuenta corriente: Nº 85999997 del Banco BCI. RUT de la Fundación: 72.169.900-5</p>
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+      <div class="col-sm-2">
+        <h3>Llamadas internacionales</h3>
+        <p>Utilizando el "Plan Niño y Cáncer" para sus llamadas internacionales, estará ayudando y al mismo tiempo disfrutando de excelentes tarifas para sus llamadas de larga distancia.</p>
       </div>
-      <div class="contact-button-inner">
-        <button type="button" class="btn btn-info">Enviar</button>
+      <div class="col-sm-2">
+        <h3>Donando tu celular</h3>
+        <p>¿Tienes un teléfono celular inútil, viejo o en desuso?</p>
+        <p>Entrega tu celular viejo en nuestra oficina ubicada en Tupungato 10070, Vitacura.</p>
       </div>
-    </form>
+      <div class="col-sm-2">
+        <h3>Alcancías</h3>
+        <p>En las alcancías de los Pronto Copec, Punto Copec, Librería Nacional, Aeropuerto de Santiago, Duty Free, Farmacias Carmen y comercio en general.</p>
+      </div>
+      <div class="col-sm-2">
+        <h3>Donando en línea</h3>
+        <p>Realiza ahora tu donación en línea a través del sistema Web Pay Plus de Transbank aportando con tu tarjeta de crédito Visa, Master Card y Magna o Debito (Redcompra).</p>
+      </div>
+    </div>
   </section>
-
   <!-- Footer -->
-  <footer class="bg-dark">
+  <footer class="container-fluid footer">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Visita nuestra fundación</h3>
+        <div class="embed-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5120188939204!2d-70.53908698487318!3d-33.38380370148075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6283871%3A0x75682cb0ad81a60e!2sFundaci%C3%B3n+Ni%C3%B1o+y+Cancer!5e0!3m2!1ses-419!2scl!4v1527439190995" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <h3>Contáctanos</h3>
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo elecrtrónico">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">¿Qué quieres hacer?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Ser socio</option>
+              <option>Ser voluntario</option>
+              <option>Donar</option>
+              <option>Tomar contacto</option>
+              <option>Duda o consulta</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <div class="contact-button-inner">
+            <button type="button" class="btn btn-info">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="social-nav">
+      <ul class="d-flex">
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+      </ul>
+    </div>
     <small>Fundación Niño y Cancer 2018. Todos los derechos reservados.</small>
   </footer>
 

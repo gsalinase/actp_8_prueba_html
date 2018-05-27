@@ -1,4 +1,6 @@
-/* Global Styles */
+/*********************
+ Global Styles
+*********************/
 
 body {
   font-family: 'Lato', sans-serif;
@@ -72,6 +74,108 @@ h3 {
   }
 
 }
+
+/* Footer */
+
+.footer {
+  background-color: #0D1321;
+  color: #fff;
+  padding: 3rem;
+}
+
+.footer h3 {
+  margin: 2rem 0;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.adress {
+  padding-top: 2rem;
+}
+
+.social-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-nav ul {
+  padding: 1rem 0;
+}
+
+.social-nav li {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.social-nav a {
+  color: #fff;
+}
+
+small {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    background-color: #0D1321;
+    color: #fff;
+    padding: 3rem 12rem;
+  }
+
+}
+
+/* contact */
+
+.contact {
+  padding: 2rem;
+}
+
+.contact h2 {
+  padding: 2rem;
+  font-weight: 600;
+}
+
+.contact h2, .contact p {
+  text-align: center;
+}
+
+.contact-button-inner {
+  text-align: right;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 1200px) {
+
+  .contact {
+    padding: 5rem 12rem;
+  }
+
+  .contact h2{
+    padding-bottom: 3rem;
+  }
+}
+
+/****************************
+  HOME
+*****************************/
 
 /* Hero */
 
@@ -153,7 +257,22 @@ h3 {
 /* Activities */
 
 .activities {
-  padding: 1rem 2rem
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.activities h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 3rem;
+}
+
+.activities img {
+  padding-top: 2rem;
+}
+
+.activities h3 {
+  padding-top: 2rem;
 }
 
 .activities p {
@@ -172,12 +291,54 @@ h3 {
     padding: 1rem 12rem
   }
 
+  .activities h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 4rem;
+  }
+
+  .activities__inner {
+    margin-bottom: 4rem;
+  }
+
   .activities p {
     padding-top: 1rem;
     font-weight: 300;
   }
 }
 
+/* Call to action */
+
+.call-to-action {
+  background-color: #CF5C36;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.call-to-action a {
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .call-to-action {
+    background-color: #CF5C36;
+    color: #fff;
+    padding: 5rem 12rem;
+    height: 400px;
+    text-align: center;
+  }
+
+  .call-to-action button {
+    margin-top: 3rem;
+    padding: 1rem 4rem;
+    font-size: 1.1em;
+    color: #fff;
+  }
+}
+
+/*************************
+  ABOUT
+*************************/
 
 /* About */
 
@@ -187,7 +348,8 @@ h3 {
 }
 
 .about h2 {
-  font-weight: 600;
+  font-weight: 900;
+  padding-top: 6rem;
   padding-bottom: 2rem;
 }
 
@@ -200,20 +362,6 @@ h3 {
   text-align: left;
 }
 
-.about-inner {
-  padding: 2rem 4rem;
-}
-
-.about-inner p {
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
-.fas, .fab, .far {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
 @media (min-width: 1200px) {
 
   .about {
@@ -224,26 +372,66 @@ h3 {
     padding-bottom: 1rem;
   }
 
-  .about-inner {
-    padding: 2rem 4rem;
-  }
-
-  .about-inner p {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
 }
+
+/* Objetive */
+
+.objetive {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: #CF5C36;
+  color: #fff;
+}
+
+.objetive h2 {
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+  font-weight: 900;
+}
+
+.objetive h3 {
+  padding-bottom: 5rem;
+}
+
+.fas, .fab, .far {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Donation */
+
+.donation {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.donation h2 {
+  padding-top: 2rem;
+  font-weight: 900;
+}
+
+.donation h3 {
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.donation p {
+  font-weight: 300;
+}
+
+/*************************
+  POSTS
+*************************/
 
 /* Works */
 
 .works {
-  background-color: #A2CAC1;
   padding: 2rem;
 }
 
 .works h2{
-  color: #fff;
+  padding-top: 6rem;
   font-weight: 600;
   text-align: center;
 }
@@ -252,67 +440,18 @@ h3 {
   margin-top: 3rem;
 }
 
+.card {
+  margin-top: 3rem;
+}
+
+.card-text {
+  font-weight: 300;
+}
+
 @media (min-width: 1200px) {
 
   .works {
     padding: 5rem 12rem;
   }
 
-}
-
-/* contact */
-
-.contact {
-  padding: 2rem;
-}
-
-.contact h2 {
-  padding: 2rem;
-  font-weight: 600;
-}
-
-.contact h2, .contact p {
-  text-align: center;
-}
-
-.contact-button-inner {
-  text-align: right;
-  padding-bottom: 2rem;
-}
-
-@media (min-width: 1200px) {
-
-  .contact {
-    padding: 5rem 12rem;
-  }
-
-  .contact h2{
-    padding-bottom: 3rem;
-  }
-}
-
-/* Footer */
-
-footer {
-  color: #fff;
-  text-align: center;
-  padding: 3rem;
-}
-
-.google-maps {
-  position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
-  height: 0;
-  overflow: hidden;
-}
-.google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
-
-small {
-  margin-top: 2rem;
 }
